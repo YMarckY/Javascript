@@ -108,6 +108,7 @@
 					exit();
 					
 				}
+			document.getElementById("tejo").style.onclick = "block";
 		}//fin funcion
 //////////////////////////////////////////////////////////////////////////////////////////
 	function tirar()//funcion para las operaciones
@@ -173,6 +174,7 @@
 					//condicion para ver si se toma tejo
 					if(num==4||num==5||num==6||num==8||num==9||num==10)
 					{
+						document.getElementById("tejo").style.onclick = "block";
 						document.getElementById("dadot1").src = document.getElementById("dado1").src;
 						document.getElementById("dadot2").src = document.getElementById("dado2").src;
 						//muestra de dados de tejo
